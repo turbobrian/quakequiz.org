@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>QuakeQuizSF</title>
+	<meta name="description" content="Earthquake awareness quiz" />
+	<link rel="stylesheet" href="_css/style.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="_lib/swfobject.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="content">
+			<div id="ipad">
+				<h1><a href="https://itunes.apple.com/app/apple-store/id528670989?pt=216612&ct=qqorg&mt=8" onclick="ga('send', 'event', 'iTunes','Sent to Store','From Banner');">Get</a> the iPad app.</h1>
+			</div>
+			<div class="player">
+				<div id="swfobject">
+					<div class="flash_error">
+						<strong>Sorry, but this quiz is Flash based</strong>.<br />
+						Please try the iPad version instead<a href="https://itunes.apple.com/app/apple-store/id528670989?pt=216612&ct=qqorg&mt=8"  onclick="ga('send', 'event', 'iTunes','Sent to Store','From flash fallback');">get</a> the iPad app.
+						<br/><br />
+					</div>
+					<script type="text/javascript">
+					var so = new SWFObject("_swf/wrap.swf", "flash", "100%", "100%", "9", "#FFFDE4");
+					so.addParam("allowScriptAccess", "always");
+					so.addParam("scale", "noscale");
+					so.addParam("wmode","transparent");
+					so.write("swfobject");
+				</script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--<div style="display:none;">
+	  <img src="_img/qqbanner.png" alt="Help spread the word. Choose a banner to show on your website, then copy the code below." width="790" height="492" />
+	</div>-->
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-5976854-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>

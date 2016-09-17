@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quakequiz>
+	<section id="Home">
+	    <quiz rightAnswer="3">
+			<question text="In the event of an earthquake while sleeping:"/>
+			<answer text="Roll onto the floor next to your bed." />
+			<answer text="Get in a doorway." />
+			<answer text="Stay in your bed, protecting your      head with a pillow." />
+			<nextStep text="Assess your surroundings and put on shoes before getting out of bed." />
+		</quiz>
+		<tips>
+			<tip text="Move beds away from windows, mirrors, or framed pictures." id="Bed" obj="Bed2" align="2"/>
+			<tip text="Shut off the gas only if you suspect a leak or are instructed to do so. Only a trained professional can turn it back on safely." id="GasBox" obj="Hose" align="4"/>
+			<tip text="Store at least 3 gallons of water per person and keep a first aide kit in the house." id="FirstAid" obj="AidAndWater"/>
+			<tip text="Keep a pair of sturdy shoes and a flashlight tied to the bed frame in a plastic bag under your bed." id="Shoes" obj="Shoes"/>
+			<tip text="Ensure this" id="Sleeper" obj="SleeperSuccess" type="viewQuestion"/>
+			<tip text="Make a Go-bag for your pets and identify a trusted neighbor who could check on them if a disaster strikes when you're not home." id="Pets" obj="Pets"/>
+			<tip text="If you need to communicate after an earthquake, texting may be more reliable than trying to make a phone call as lines most likely will be busy." id="Phone" obj="AreaPhone" align="2"/>
+			<tip text="Make sure that heavy objects within the home are securely tied down." id="Tv" obj="AreaTv" align="1"/>
+		</tips>
+	</section>
+	<section id="Beach">
+	    <quiz rightAnswer="2">
+			<question text="In the event of an earthquake while at the beach:" />
+			<answer text="Run into the water." />
+			<answer text="Drop and cover until the shaking     stops." />
+			<answer text="Apply more sunscreen." />
+			<nextStep text="If you observe the water receding in an unusually rapid manner, move immediately to higher ground – a strong earthquake centered off the coast can cause a tsunami." />
+		</quiz>
+		<tips>
+			<tip text="Pay attention to posted tsunami evacuation routes." id="Sign" obj="Sign" align="1"/>
+			<tip text="Have your pets micro-chipped." id="Dog" obj="Dog"/>
+			<tip text="After an earthquake, tune to a radio news source, like KCBS 740 AM." id="Radio" obj="Radio"/>
+			<tip text="If you hear the Outdoor Public Warning System any time other than the weekly Tuesday Noon test, go to higher ground and tune to a news source for instructions." id="Sirens" obj="Sirens" align="2"/>
+			<tip text="Ensure this" id="Guy" obj="GuySuccess" type="viewQuestion"/>
+		</tips>
+	</section>
+	<section id="Driving">
+	    <quiz rightAnswer="1">
+			<question text="In the event of an earthquake while driving:"/>
+			<answer text="Pull over to the side of the road, avoiding overpasses, trees and electrical wires; set the parking brake." />
+			<answer text="Speed up to get away from other cars around you." />
+			<answer text="Stop your car and get out." />
+			<nextStep text="Stay inside the vehicle until the shaking is over. Tune to a news source. If a power line falls on the car, stay in your car and wait for help." />
+		</quiz>
+		<tips>
+			<tip text="Keep a Go-bag in your car." id="Bag" obj="Bag"/>
+			<tip text="Try to keep your gas tank at least half full. Gas pumps may not work if the electricity is out." id="GasCap" obj="GasCap"/>
+			<tip text="Register with Alertsf.org to receive post disaster emergency information to your text-enabled device." id="Biker" obj="Biker"/>
+			<tip text="If you hear the Outdoor Public Warning System any time other than the weekly Tuesday Noon test, tune to a news source for instructions." id="Sirens" obj="Siren" align="1"/>
+			<tip text="Ride bike instead" id="Driver" obj="DriverSuccess" type="viewQuestion"/>
+		</tips>
+	</section>
+	<section id="Office">
+	    <quiz rightAnswer="2">
+			<question text="In the event of an earthquake while at work:"/>
+			<answer text="Run out of the building." />
+			<answer text="Get under a nearby desk or table and hold on until the shaking stops." />
+			<answer text="Call 9-1-1 to report the earthquake." />
+			<nextStep text="Assess your surroundings and check yourself for injuries before helping others. Follow your building's emergency procedures. Call 9-1-1 only if you have a life-threatening emergency." />
+		</quiz>
+		<tips>
+			<tip text="Remember to keep a pair of sturdy shoes and a dust mask in your work Go-bag." id="Bag" obj="Bag" align="3"/>
+			<tip text="Secure heavy objects that could cause injury or block exits." id="Cabinet" obj="Cabinet"/>
+			<tip text="During an earthquake, lock the brakes on your wheelchair and cover your head and neck with your arms." id="WheelChair" obj="WheelChair" align="1"/>
+			<tip text="Use the stairs to exit. Avoid using the elevator after an earthquake." id="Handle" align="4"/>
+			<tip text="Identify the floor warden or safety officer for your building." id="Hat" obj="Hat" align="1"/>
+			<tip text="Dont forget to take the monitor with you as you evacuate" id="Lady" obj="LadySuccess" align="2"  type="viewQuestion"/>
+		</tips>
+	</section>
+	<section id="Commute">
+	    <quiz rightAnswer="3">
+			<question text="In the event of an earthquake while commuting:" />
+			<answer text="Exit the train as quickly as possible." />
+			<answer text="Keep listening to your music until the train reaches its destination." />
+			<answer text="Stay in your seat and protect your head and neck with your arms." />
+			<nextStep text="Assess your surroundings and wait for evacuation instructions from train operators or safety personnel." />
+		</quiz>
+		<tips>
+			<tip text="XXXX" id="Guy" obj="GuySuccess"  type="viewQuestion"/>
+			<tip text="Keep pictures of family members and pets on your cell phone to assist with reunification after a disaster." id="Guy2" obj="Guy2"/>
+			<tip text="If you need to communicate after an earthquake, texting may be more reliable than trying to make a phone call." id="Girl2" obj="Girl2" align="1"/>
+			<tip text="Carry a small flashlight with you at all times." id="Flashlight" obj="Woman"/>
+			<tip text="Be aware of posted emergency instructions on public transportation" id="EmergencyExit" align="1"/>
+		</tips>
+	</section>
+	<section id="Restaurant">
+	    <quiz rightAnswer="1">
+			<question text="In the event of an earthquake while dining out:" />
+			<answer text="Get under a nearby table and hold on until the shaking stops." />
+			<answer text="Grab your drink – it wasn't cheap." />
+			<answer text="Run to the nearest exit." />
+			<nextStep text="Assess your surroundings and then exit slowly, watching for falling objects such as windows, bricks and building facades." />
+		</quiz>
+		<tips>
+			<tip text="When you are in an unfamiliar space, identify safe places to take cover in an earthquake." id="Guy" obj="AreaTable"  type="viewQuestion"/>
+			<tip text="Make a family emergency plan in case you are separated when an earthquake strikes." id="Guy2" obj="Guy2"/>
+			<tip text="If you are not near a table, desk or other object you can quickly get under, drop to the floor against an interior wall and cover your head and neck with your arms." id="Menu" obj="AreaGuy" align="4"/>
+			<tip text="Try to always carry some cash. ATM machines may not be functioning after an earthquake." id="Bag" obj="Bag"/>
+		</tips>
+	</section>
+
+</quakequiz>

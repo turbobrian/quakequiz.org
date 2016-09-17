@@ -1,0 +1,67 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	background-color: #FFFDE4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	overflow: hidden;
+	height: 100%;
+	background-image: url("../_img/background.gif");
+}
+
+.container 	{
+	padding: 0;
+	overflow: hidden;
+	height: 100%;
+}
+
+.header{
+	float: left;
+	height: 110px;
+}
+
+.header .left{
+	float: left;
+}
+
+.header .right{
+	position: absolute;
+	float: right;
+	right: 0;
+}
+
+.content{
+	clear: both;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.player{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+#swfobject{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.footer{
+	float: left;
+}
+.copyright{
+	float: left;
+}
+#ipad{
+	position:absolute;
+	z-index: 99999;
+	left:42%;
+	top:33px;
+}
+a{
+	text-decoration: none;
+}
