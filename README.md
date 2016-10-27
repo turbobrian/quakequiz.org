@@ -1,4 +1,3 @@
-# quakequizsf.org
+# quakequiz.org
 
 The website, in _flash_...
-
